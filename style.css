@@ -1,0 +1,225 @@
+
+
+/*------- PLEASE USE  >100%<  BROWSER ZOOM FOR BEST ALIGNMENT -----*?
+
+
+
+/* GLOBAL */
+body{
+    padding: 0%;
+    margin: 0%;
+    padding-top: 50px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    font-family: 'Alegreya Sans', Georgia, 'Times New Roman', Times, serif, Courier, monospace, 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* HEADER */
+
+header{
+    height: 60px;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 0px 8px 0 rgb(177, 176, 176);
+    
+}
+
+header #navbar{
+    float: right;
+    margin-top: 0x;
+}
+
+header li{
+    float: left;
+    display: inline;
+    text-decoration: none;
+    padding: 20px 15px 0 15px;
+    height: 50px;
+    margin-top: 0;
+}
+
+header #navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header img{
+    height:40px ;
+}
+
+.branding{
+    float:left;
+    margin: 10px 0 10px 0;
+}
+
+header a{
+    text-decoration: none;
+    color: grey;
+    transition: 1s;
+}
+
+header a:hover{
+    color: rgb(6, 6, 24);
+    transition: 1s;
+}
+
+header a.current-page{
+    color: rgb(6, 6, 24);
+}
+
+header #navbar ul li.current-page{
+    border-top: #8e7754 solid 4px;
+    padding-top: 16px;
+}
+
+/* SECTION ONE WELCOME */
+
+#welcome-section{
+    background-image: url(./images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    height: 600px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+#welcome-family-bakery{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#welcome-family-bakery h1{
+    font-size: 70px;
+    font-weight: lighter;
+    margin: 8px 0 8px 0;
+}
+
+#welcome-family-bakery p{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#welcome-buttons{
+    margin-top: 5px;
+
+}
+
+#welcome-buttons button{
+    height: 50px;
+    margin:0 10px;
+    padding: 0 20px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 7px;
+}
+
+#welcome-buttons #learn-more{
+    background-color: #8e7754;
+    border: none;
+    border-radius: 7px;
+}
+
+#welcome-buttons a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    margin:70px 10px 0 10px ;
+    border: solid white;
+    border-radius: 7px;
+    transition: .5s;
+}
+
+#welcome-buttons a:hover{
+    color: rgb(6, 6, 24);
+    background-color: white;
+}
+
+#welcome-buttons #learn-more:hover{
+    background-color: white;
+}
+
+/* WHO WE ARE */
+
+.section-2 #who-article ul img{
+    width: 40px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.section-2 img{
+    width: 500px;
+}
+
+.section-2-items{
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 100px 0;
+    color: rgb(116, 116, 116);
+}
+
+.section-2-items h1,#section-3 h1{
+    color: rgb(6, 6, 24);
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.section-2-items ul{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.section-2-items ul li{
+    padding: 10px;
+}
+
+.section-2-items ul li img{
+    vertical-align:middle;
+    border: solid rgb(212, 212, 212) 1px;
+    border-radius: 20px;
+}
+
+#who-article{
+    padding-left: 30px;
+}
+
+/* SECTION 3 */
+
+#section-3{
+    background-color: rgb(239, 239, 239);
+    margin: auto;
+}
+
+.location-item{
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    margin: 100px 0;
+    color: rgb(116, 116, 116);
+}
+
+.location-item img{
+    width: 600px;
+
+}
+
+#our-location-article{
+    padding-right: 100px;
+}
+
+
